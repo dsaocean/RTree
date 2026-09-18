@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>RTree</id>
+    <version>0.0.0</version>
+    <title></title>
+    <authors>Greg Douglas,Yariv Barkan,Gero Mueller</authors>
+    <owners></owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/nushoin/RTree</projectUrl>
+    <description>C++ implementation of RTree</description>
+    <repository type="git" url="https://github.com/dsaocean/RTree" />
+  </metadata>
+  <files>
+    <file src="rTree.props" target="build\rTree.props" />
+    <file src="..\RTree.h"  target="include\RTree\RTree.h" />
+  </files>
+</package>
